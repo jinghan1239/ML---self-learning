@@ -1,3 +1,4 @@
+、、、
 %Importing Needed packages
 import piplite
 await piplite.install(['pandas'])
@@ -9,6 +10,7 @@ import pandas as pd
 import pylab as pl
 import numpy as np
 %matplotlib inline
+、、、
 %Downloading Data
 from pyodide.http import pyfetch
 
