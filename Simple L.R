@@ -1,16 +1,22 @@
-、、、
+'''
+
 %Importing Needed packages
 import piplite
 await piplite.install(['pandas'])
 await piplite.install(['matplotlib'])
 await piplite.install(['numpy'])
 await piplite.install(['scikit-learn'])
+
+'''
+'''
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import pylab as pl
 import numpy as np
 %matplotlib inline
-、、、
+
+'''
 %Downloading Data
 from pyodide.http import pyfetch
 
